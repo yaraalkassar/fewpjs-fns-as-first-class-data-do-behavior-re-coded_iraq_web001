@@ -10,9 +10,9 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(t){
 
-  
+
 }
 /* Write your implementation of displayMessage() */
 function displayMessage() {
-  
+
 }
