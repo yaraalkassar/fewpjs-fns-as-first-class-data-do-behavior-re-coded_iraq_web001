@@ -24,6 +24,5 @@ else {
 /* Write your implementation of displayMessage() */
 let txt = "TEST"
 function displayMessage(txt) {
-let element =document.querySelector('#greeting');
-element.innerHTML= txt;
+  document.getElementById('greeting').innerText = saying
 }
