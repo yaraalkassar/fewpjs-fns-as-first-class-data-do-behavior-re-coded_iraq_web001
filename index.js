@@ -9,13 +9,10 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time){
-let format =  time.match(/[a-z]+|[^a-z]+/gi);
-let h = format[0].split(':');
-if(format[1]=="AM"||format[1]=="am")
+let h = time.split(':');
+if(h[0]>=0&&h[0]<12)
 return ("Good Morning");
-else if(format[1]=="PM"||format[1]=="pm")
-{
-if(h[0]<=5||h[0]==12)
+else if(h[0]<=5||h[0]==12)
 {
   return ("Good Afternoon");
 }
