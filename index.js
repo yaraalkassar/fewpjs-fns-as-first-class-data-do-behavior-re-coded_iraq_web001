@@ -23,5 +23,5 @@ else {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(txt) {
-document.getElementById('greeting').innerHTML= txt;
+document.querySelector('#greeting').innerHTML= txt;
 }
