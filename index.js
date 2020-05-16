@@ -12,7 +12,7 @@ function greet(time){
 let h = time.split(':');
 if(h[0]>=0&&h[0]<12)
 return ("Good Morning");
-else if(h[0]>=12&&h[0]<=18)
+else if(h[0]>=12&&h[0]<18)
 {
   return ("Good Afternoon");
 }
