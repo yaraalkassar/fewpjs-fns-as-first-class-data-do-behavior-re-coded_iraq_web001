@@ -22,7 +22,7 @@ else {
 
 }
 /* Write your implementation of displayMessage() */
-let txt = "TEST"
+
 function displayMessage(txt) {
   document.getElementById('greeting').innerText = txt;
 }
