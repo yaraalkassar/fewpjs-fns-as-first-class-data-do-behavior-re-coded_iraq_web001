@@ -11,13 +11,13 @@ function handleClick(e) {
 function greet(time){
 let h = time.split(':');
 if(h[0]>=0&&h[0]<12)
-alert ("Good Morning");
+return ("Good Morning");
 else if(h[0]>=12&&h[0]<=18)
 {
-  alert ("Good Afternoon");
+  return ("Good Afternoon");
 }
 else {
-  alert ("Good Evening");
+  return ("Good Evening");
 }
 
 }
