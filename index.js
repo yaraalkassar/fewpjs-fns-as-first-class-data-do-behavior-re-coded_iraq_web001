@@ -13,6 +13,7 @@ function greet(t){
 
 }
 /* Write your implementation of displayMessage() */
-function displayMessage() {
+function displayMessage(txt) {
+document.getElementById('greeting').innerHTMl= txt;
 
 }
