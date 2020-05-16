@@ -26,7 +26,7 @@ else {
 }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(txt) {
+function displayMessage(txt="TEST") {
 document.getElementById("greeting").innerHTMl= txt;
 
 }
