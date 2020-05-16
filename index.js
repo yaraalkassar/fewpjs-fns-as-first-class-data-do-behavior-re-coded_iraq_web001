@@ -23,5 +23,6 @@ else {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(txt = "TEST") {
-document.querySelector('#greeting').innerHTML= txt;
+let element =document.querySelector('#greeting');
+element.innerHTML= txt;
 }
