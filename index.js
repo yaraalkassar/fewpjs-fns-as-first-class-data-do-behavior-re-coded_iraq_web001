@@ -11,8 +11,19 @@ function handleClick(e) {
 function greet(time){
 let format =  time.match(/[a-z]+|[^a-z]+/gi);
 h = format[0].split(':');
-if()
-
+if(format[1]=="AM"||format[1]=="am")
+return ("Good Morning");
+else if(format[1]=="PM"||format[1]=="pm")
+{
+if(h[0]<=5||h[0]==12)
+{
+  return ("Good Afternoon");
+}
+else {
+  return ("Good Evening");
+}
+  
+}
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(txt) {
