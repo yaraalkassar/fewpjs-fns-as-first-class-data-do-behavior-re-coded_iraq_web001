@@ -10,7 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time){
 let format =  time.match(/[a-z]+|[^a-z]+/gi);
-h = format[0].split(':');
+let h = format[0].split(':');
 if(format[1]=="AM"||format[1]=="am")
 return ("Good Morning");
 else if(format[1]=="PM"||format[1]=="pm")
